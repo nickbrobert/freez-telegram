@@ -53,5 +53,5 @@ def ban_user(username):
             print(f"Аккаунт {session} ограничен, пропускаем")
             continue
         except Exception as e:
-            print(f"Проблема с сессии {session}: {e}")
+            print(f"Проблема с сессией {session}: {e}")
             continue

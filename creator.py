@@ -26,7 +26,7 @@ def create_channels():
             else:
                 channels = []
             
-            while len(channels) < 40:
+            while len(channels) < 10:
                 try:
                     new_channel = app.create_channel(f"chat_{len(channels)+1}", "Канал")
                     channels.append(new_channel.id)
